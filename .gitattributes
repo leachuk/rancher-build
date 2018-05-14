@@ -1,1 +1,1 @@
-*.iso binary
+*.iso filter=lfs diff=lfs merge=lfs -binary
