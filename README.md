@@ -38,3 +38,9 @@ docker push 192.168.99.101:5000/mynginx
 docker pull 192.168.99.101:5000/mynginx
 docker run -d -p 8081:80 192.168.99.101:5000/mynginx
 ```
+
+### list images in custom repo
+Via browser or curl
+```
+http://192.168.99.101:5000/v2/_catalog
+```
