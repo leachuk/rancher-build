@@ -5,7 +5,7 @@ Setting up an environment build process with Rancher
 Build and run custom nginx container.
 
 ```
-cd docker
+cd docker/nginx
 docker build -t mynginx .
 docker run -d -p 8081:80 mynginx
 ```
