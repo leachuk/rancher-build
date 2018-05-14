@@ -33,7 +33,8 @@ docker run -d \
 docker tag mynginx 192.168.99.101:5000/mynginx
 docker push 192.168.99.101:5000/mynginx
 ```
-### pull custom nginx from registry
+### pull custom nginx from registry and run
 ```
 docker pull 192.168.99.101:5000/mynginx
+docker run -d -p 8081:80 192.168.99.101:5000/mynginx
 ```
